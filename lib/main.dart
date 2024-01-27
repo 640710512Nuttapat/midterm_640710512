@@ -118,12 +118,12 @@ class _MyAppState extends State<MyApp> {
       }
 void mm(String a){
   setState(() {
-    if(a=='='){
+     if(a=='='){
     sum='0';
   }
   });
   
-  
+ 
 }
       Widget m(String a) {
   return Expanded(
